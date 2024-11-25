@@ -39,8 +39,10 @@ messageButBetter = ttk.Label(root, text="Hello, World! But better tho", font=("H
 
 coolBox = ttk.Combobox(root, values=["Option 1", "Option 2", "Option 3"])
 
-message.pack()
-messageButBetter.pack()
-coolBox.pack()
-button.pack()
+print()
+
+message.pack(pady=10)
+messageButBetter.pack(pady=10)
+coolBox.pack(pady=10)
+button.pack(ipady=10)
 root.mainloop()
